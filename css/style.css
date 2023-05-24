@@ -1,0 +1,49 @@
+
+@font-face {
+    font-family: 'aber_monobold';
+    src: url('../fonts/aber-mono-bold-webfont.woff2') format('woff2'),
+         url('../fonts/aber-mono-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'aber_monolight';
+    src: url('../fonts/aber-mono-light-webfont.woff2') format('woff2'),
+         url('../fonts/aber-mono-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'aber_monoregular';
+    src: url('../fonts/aber-mono-regular-webfont.woff2') format('woff2'),
+         url('../fonts/aber-mono-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'montserrat_thinitalic';
+    src: url('../fonts/montserrat-italic-variablefont_wght-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-italic-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'montserrat_thinregular';
+    src: url('../fonts/montserrat-variablefont_wght-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
