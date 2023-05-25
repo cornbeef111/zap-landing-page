@@ -15,9 +15,10 @@
 *{
      box-sizing: border-box;
 }
-body{
+/*body{
      margin: 0px;
-}
+     overflow-x: hidden;
+}*/
  header{
      width: 100%;
      padding: 10px;
@@ -71,7 +72,7 @@ body{
      text-decoration: none;
      line-height: -40px;
      font-weight: bold;
-     font-family: 'montserratextrabold';
+     font-family: 'montserrat_bold';
 }
 .para2 a:hover{
      color: red;
