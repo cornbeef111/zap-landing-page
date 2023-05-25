@@ -15,6 +15,9 @@
 *{
      box-sizing: border-box;
 }
+body{
+     margin: 0px;
+}
  header{
      width: 100%;
      padding: 10px;
@@ -28,10 +31,9 @@
  }
  #menu {
      margin-left: 25%;
-     font-family: 'montserrat_thinregular';
-     font-weight: bold;
+     font-family: 'montserratmedium';
      font-size: 12px;
-     margin-top: 7px;
+     margin-top: 5px;
  }
  #box{
      width: 15px;
@@ -42,8 +44,7 @@
  }
  .curve{
      background-image: url(../images/curve.png);
-     height: 136px;
-     width: 161px;
+     height: 120px;
      background-repeat: no-repeat;
      margin-left: 53%;
      transform: rotateZ(4deg);
@@ -52,7 +53,7 @@
      margin-top: -60px;
  }
  #writeup{
-     font-size: 48px;
+     font-size: 45px;
      font-family: 'aber_monobold';
      padding: 30px;
      margin-top: -70px;
@@ -63,29 +64,28 @@
 }
 .para2{
      padding: 25px 25px 0px 25px;
-     font-family: 'montserrat_thinregular';
      font-size: 21px;
-     font-weight: bold;
 }
 .para2 a{
      color: rgb(230,93,52);
      text-decoration: none;
      line-height: -40px;
      font-weight: bold;
+     font-family: 'montserratextrabold';
 }
 .para2 a:hover{
      color: red;
 }
 .para2 p{
      margin-bottom: -10px;
-     font-weight: bolder;
+     font-family: 'montserratregular';
 }
 #arrow{
      background-image: url(../images/arrow.png);
      background-size: contain;
      background-repeat: no-repeat;
      height: 30px;
-     margin: 50px 0px 35px 25px;
+     margin: 50px 0px 45px 25px;
      color: rgb(230,93,52);
 }
 
@@ -98,27 +98,35 @@
      font-family: 'aber_monobold';
      padding: 20px 15px 0px 25px;
      font-size: 31px;
-     margin-bottom: -40px;
+     margin-bottom: -46px;
 }
 .list1{
      color: white;
      margin-top: 60px;
-     font-family: 'montserrat_thinregular';
+     font-family: 'montserratregular';
      font-size: 10px;
      line-height: 32px;
-     margin-left: 2px;
-     margin-right: -4px
+     margin-left: -15px;
+     /*margin-right: -10px*/
+}
+.list2{
+     color: white;
+     margin-top: 60px;
+     font-family: 'montserratsemibold';
+     font-size: 10px;
+     line-height: 32px;
+     margin-left: -15px;
+     /*margin-right: -10px*/
 }
  .button{
      padding: 10px 25px 13px 25px;
      background-color: rgb(218,251,114);
      border-radius: 20px;
-     margin: 30px 0px 60px 27px;
+     margin: 20px 0px 60px 27px;
      font-size: 12px; 
-     font-family: 'montserrat_thinregular';
+     font-family: 'montserratregular';
      color: rgb(21,21,21);
      text-decoration: none;
-     font-weight: bold;
    }
 .fa-solid{
      font-size: 18px;
@@ -130,17 +138,16 @@
      color: rgb(230,93,52);
      text-decoration: none;
      margin-left: 15px;
-     font-family: 'montserrat_thinregular';
-     font-weight: bold;
-     font-size: 15.48px;
+     font-family: 'montserratmedium';
+     font-size: 15px;
 }
 .email{
      color: white;
-     font-family: 'montserrat_thinregular';
+     font-family: 'montserratmedium';
      margin-left: 15px;
-     margin-top: -18px;
+     margin-top: -12px;
      text-decoration: none;
-     font-size: 15.48px;
+     font-size: 15px;
 }
 #icon{
      margin-left: 28px;
@@ -156,7 +163,7 @@
      padding: 5px;
      background-color: rgb(230,93,52);
      color: white;
-     margin-right: 10px;
+     margin-right: 13px;
      font-size: 12px;
 
 }
@@ -165,7 +172,7 @@
 }
 aside{
      color: rgb(184,184,184);
-     font-family: 'montserrat_thinregular';
+     font-family: 'montserratregular';
      margin-left: 15px;
      font-size: 9.64px;
      margin-bottom: 25px;
