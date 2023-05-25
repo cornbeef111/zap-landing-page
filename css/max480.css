@@ -27,51 +27,148 @@
      margin: 20px 0px 0px 5px;
  }
  #menu {
-     margin-left: 21%;
-     font-family: 'montserrat_thinregular'
+     margin-left: 25%;
+     font-family: 'montserrat_thinregular';
+     font-weight: bold;
+     font-size: 12px;
+     margin-top: 7px;
  }
  #box{
      width: 15px;
      height: 15px;
      background-color: rgb(230,93,52);
-     margin-top: 30px;
-     margin-left: 10px;
+     margin-top: 32px;
+     /*margin-left: 10px;*/
  }
  .curve{
      background-image: url(../images/curve.png);
-     height: 150px;
-     width: 175px;
+     height: 136px;
+     width: 161px;
      background-repeat: no-repeat;
-     margin-left: 40%;
-     transform: rotateZ(7deg);
+     margin-left: 53%;
+     transform: rotateZ(4deg);
  }
  #wrtmove{
-     margin-top: -30px;
+     margin-top: -60px;
  }
  #writeup{
-     font-size: 35px;
+     font-size: 48px;
      font-family: 'aber_monobold';
      padding: 30px;
-     margin-top: -40px;
+     margin-top: -70px;
      font-weight: bold;
  }
 #writeup p{
-     margin-bottom: -20px;
+     margin-bottom: -38px;
 }
 .para2{
-     padding: 0px 25px 0px 25px;
+     padding: 25px 25px 0px 25px;
      font-family: 'montserrat_thinregular';
-     font-size: 20px;
+     font-size: 21px;
      font-weight: bold;
 }
 .para2 a{
-     font-family: initial;
      color: rgb(230,93,52);
      text-decoration: none;
-     line-height: 40px;
+     line-height: -40px;
+     font-weight: bold;
 }
 .para2 a:hover{
      color: red;
+}
+.para2 p{
+     margin-bottom: -10px;
+     font-weight: bolder;
+}
+#arrow{
+     background-image: url(../images/arrow.png);
+     background-size: contain;
+     background-repeat: no-repeat;
+     height: 30px;
+     margin: 50px 0px 35px 25px;
+     color: rgb(230,93,52);
+}
+
+#footer{
+     background-color: black;
+     width: 100%;
+}
+#footer p{
+     color: rgb(252,162,19);
+     font-family: 'aber_monobold';
+     padding: 20px 15px 0px 25px;
+     font-size: 31px;
+     margin-bottom: -40px;
+}
+.list1{
+     color: white;
+     margin-top: 60px;
+     font-family: 'montserrat_thinregular';
+     font-size: 10px;
+     line-height: 32px;
+     margin-left: 2px;
+     margin-right: -4px
+}
+ .button{
+     padding: 10px 25px 13px 25px;
+     background-color: rgb(218,251,114);
+     border-radius: 20px;
+     margin: 30px 0px 60px 27px;
+     font-size: 12px; 
+     font-family: 'montserrat_thinregular';
+     color: rgb(21,21,21);
+     text-decoration: none;
+     font-weight: bold;
+   }
+.fa-solid{
+     font-size: 18px;
+}
+.button:hover{
+     background-color: rgb(252,162,19);
+}
+.phone{
+     color: rgb(230,93,52);
+     text-decoration: none;
+     margin-left: 15px;
+     font-family: 'montserrat_thinregular';
+     font-weight: bold;
+     font-size: 15.48px;
+}
+.email{
+     color: white;
+     font-family: 'montserrat_thinregular';
+     margin-left: 15px;
+     margin-top: -18px;
+     text-decoration: none;
+     font-size: 15.48px;
+}
+#icon{
+     margin-left: 28px;
+     margin-top: 10px;
+     margin-bottom: 20px;
+}
+#icon a{
+     text-decoration: none;
+}
+.fa-brands{
+     font-size: 13px;
+     border-radius: 50px;
+     padding: 5px;
+     background-color: rgb(230,93,52);
+     color: white;
+     margin-right: 10px;
+     font-size: 12px;
+
+}
+.fa-brands:hover{
+     background-color: rgb(252,162,19);
+}
+aside{
+     color: rgb(184,184,184);
+     font-family: 'montserrat_thinregular';
+     margin-left: 15px;
+     font-size: 9.64px;
+     margin-bottom: 25px;
 }
 
 
