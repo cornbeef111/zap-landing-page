@@ -44,13 +44,11 @@ body{
      /*margin-left: 10px;*/
  }
  .curvesec{
-    /* height: 100px;
-     width: 100px;*/
+    margin-top: -25px;
  }
  .curve{
      transform: rotateZ(4deg);
      margin-left: 150px;
-     /*box-shadow: 2px 2px 2px 2px;*/
  }
  #wrtmove{
      margin-top: -60px;
@@ -125,9 +123,10 @@ body{
 }
 .btn{
      margin: 20px 0px 60px 0px;
+     position: relative;
 }
  .button{
-     padding: 10px 25px 13px 25px;
+     padding: 10px 35px 13px 25px;
      background-color: rgb(218,251,114);
      border-radius: 20px;
      margin: 0px 0px 0px 27px;
@@ -138,6 +137,11 @@ body{
    }
 .button:hover{
      background-color: rgb(252,162,19);
+}
+svg{
+
+    position: absolute;
+    top: 3px;
 }
 .phone{
      color: rgb(230,93,52);
@@ -182,6 +186,7 @@ aside{
      font-size: 9.64px;
      margin-bottom: 25px;
 }
+
 
 
 }
