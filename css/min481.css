@@ -31,7 +31,7 @@ body{
      margin: 20px 0px 0px 20px;
  }
   #menu {
-     margin-left: 47%;
+     margin-left: 44%;
      font-family: 'montserratmedium';
      font-size: 12px;
      margin-top: 5px;
@@ -50,7 +50,6 @@ body{
  .curve{
      transform: rotateZ(4deg);
      margin-left: 250px;
-     box-shadow: 2px 2px 2px 2px;
  }
  #wrtmove{
      margin-top: -60px;
