@@ -60,7 +60,7 @@ header{
      display: none;
  }
  #writeup2{
-     font-size: 50px;
+     font-size: 65px;
      font-family: 'aber_monobold';
      padding: 30px;
      margin-top: -87px;
@@ -73,7 +73,7 @@ header{
  }
  .para3{
      padding: 25px 25px 0px 85px;
-     font-size: 21px;
+     font-size: 30px;
      display: block;
 }
 .para3 a{
@@ -89,6 +89,124 @@ header{
 .para3 p{
      margin-bottom: -10px;
      font-family: 'montserratregular';
+}
+.para2{
+     display: none;
+}
+#arrow{
+     display: none;
+}
+.curve2{
+     transform: rotateZ(4deg);
+     margin-left: 65%;
+     margin-bottom: 8px;
+     display: block;
+     height: 170px;
+}
+#footer{
+     background-color: black;
+     width: 100%;
+     position: relative;
+}
+#footer p{
+     color: rgb(252,162,19);
+     font-family: 'aber_monobold';
+     padding: 20px 0px 0px 180px;
+     font-size: 56px;
+     margin-bottom: -46px;
+}
+.hide2{
+     display: block;
+}
+.hide{
+     display: none;
+}
+.listt{
+     color: white;
+     margin-top: 60px;
+     margin-bottom: 90px;
+     font-family: 'montserratregular';
+     line-height: 60px;
+     font-size: 17px;
+     color: rgb(255,255,255);
+     margin-right: 110px;
+}
+.shift{
+     margin-left: 158px;
+}
+.btn{
+     margin: 30px 0px 80px 35px;
+     position: absolute;
+     bottom: -41px;
+     right: 250px;
+}
+ .button{
+     padding: 15px 30px 15px 30px;
+     background-color: rgb(218,251,114);
+     border-radius: 25px;
+     margin: 0px 0px 0px 27px;
+     font-size: 20px; 
+     font-family: 'montserratregular';
+     color: rgb(21,21,21);
+     text-decoration: none;
+
+   }
+.button:hover{
+     background-color: rgb(252,162,19);
+}
+svg{
+
+    position: absolute;
+    top: 3px;
+}
+.phone{
+     color: rgb(230,93,52);
+     text-decoration: none;
+     margin-left: 160px;
+     font-family: 'montserratmedium';
+     font-size: 20px;
+}
+.email{
+     color: white;
+     font-family: 'montserratmedium';
+     margin-left: 160px;
+     margin-top: -15px;
+     text-decoration: none;
+     font-size: 20px;
+}
+#icon{
+     margin-left: 175px;
+     margin-top: 40px;
+     margin-bottom: 15px;
+}
+#icon a{
+     text-decoration: none;
+}
+.fa-brands{
+     border-radius: 100%;
+     padding: 11px;
+     background-color: rgb(230,93,52);
+     color: white;
+     margin-right: 15px;
+     font-size: 16px;
+
+}
+.fa-brands:hover{
+     background-color: rgb(252,162,19);
+}
+span{
+     color: rgb(255,255,255);
+     margin-left: 18px;
+     margin-top: 31px;
+     font-size: 40px;
+}
+aside{
+     color: rgb(184,184,184);
+     font-family: 'montserratregular';
+     margin-left: 5px;
+     font-size: 19px;
+     margin-bottom: 0px;
+     margin-top: 33px;
 }
 
 
