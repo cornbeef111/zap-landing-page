@@ -50,6 +50,12 @@ body{
      transform: rotateZ(4deg);
      margin-left: 150px;
  }
+ .cloud{
+     display: none;
+ }
+ .curve2{
+     display: none;
+ }
  #wrtmove{
      margin-top: -60px;
  }
@@ -59,6 +65,9 @@ body{
      padding: 30px;
      margin-top: -98px;
      font-weight: bold;
+ }
+ #writeup2{
+   display: none;
  }
 #writeup p{
      margin-bottom: -38px;
@@ -81,6 +90,9 @@ body{
      margin-bottom: -10px;
      font-family: 'montserratregular';
 }
+.para3{
+     display: none;
+}
 #arrow{
      background-image: url(../images/arrow.png);
      background-size: contain;
@@ -100,6 +112,9 @@ body{
      padding: 20px 15px 0px 25px;
      font-size: 31px;
      margin-bottom: -46px;
+}
+.hide2{
+     display: none;
 }
 .list1{
      color: white;
@@ -126,7 +141,7 @@ body{
      position: relative;
 }
  .button{
-     padding: 10px 35px 13px 25px;
+     padding: 10px 40px 13px 25px;
      background-color: rgb(218,251,114);
      border-radius: 20px;
      margin: 0px 0px 0px 27px;
@@ -139,7 +154,6 @@ body{
      background-color: rgb(252,162,19);
 }
 svg{
-
     position: absolute;
     top: 3px;
 }
