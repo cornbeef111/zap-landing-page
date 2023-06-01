@@ -98,11 +98,12 @@ header{
      display: none;
 }
 .curve2{
-     transform: rotateZ(4deg);
-     margin-left: 65%;
-     margin-bottom: 8px;
-     display: block;
-     height: 170px;
+    transform: rotateZ(4deg);
+    margin-left: 65%;
+    margin-bottom: 40px;
+    display: block;
+    height: 150px;
+    margin-top: -50px;
 }
 #footer{
      background-color: black;
