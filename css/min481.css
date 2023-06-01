@@ -143,10 +143,10 @@ body{
      position: relative;
 }
  .button{
-     padding: 10px 25px 13px 25px;
+     padding: 13px 25px 13px 25px;
      background-color: rgb(218,251,114);
      border-radius: 20px;
-     margin: 0px 0px 0px 27px;
+     margin: 0px 0px 0px 25px;
      font-size: 12px; 
      font-family: 'montserratregular';
      color: rgb(21,21,21);
